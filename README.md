@@ -1,7 +1,7 @@
 # Generative-Adversarial-182-Networks-Research
 # Anime Face Generation Using Generative Adversarial Networks (GANs)
 
-This project focuses on the development and application of Generative Adversarial Networks (GANs) to generate anime faces. GANs have gained significant attention for their ability to produce highly realistic images, and this project explores their potential in the realm of anime-style imagery.
+This project is dedicated to developing and applying Generative Adversarial Networks (GANs) for generating anime faces. Recognized for their capability to produce highly realistic images, GANs are explored here for their potential in anime-style imagery.
 
 ## Table of Contents
 - [Background](#background)
@@ -15,27 +15,30 @@ This project focuses on the development and application of Generative Adversaria
 
 ## Background
 
-GANs have been a breakthrough in image generation, particularly in creating hyper-realistic human faces. This project draws inspiration from advancements like NVIDIA's StyleGAN and extends the application of GANs to anime-style image generation. The aim is to adapt GAN architectures to capture the unique artistic styles of anime and cartoons.
+GANs have marked a significant advancement in image generation, especially in creating lifelike human faces. This project takes cues from innovations such as NVIDIA's StyleGAN and applies GANs to anime-style image generation, aiming to capture the distinctive artistic styles of anime and cartoons.
 
 ## Methodology
 
 ### Training Data
-We utilize the Anime Face Dataset NTU-MLDS from Kaggle, consisting of 36,740 anime face images.
+The Anime Face Dataset NTU-MLDS from Kaggle, featuring 36,740 anime face images, is used for training.
 
 ### Preprocessing
-Images are cropped and resized to 64x64 pixels and normalized to enhance training efficiency.
+Images are cropped, resized to 64x64 pixels, and normalized to improve training efficiency.
 
 ### Architecture
-Our GAN model comprises a generator and a discriminator, each built with convolutional layers, batch normalization, and activation functions.
+Our GAN model includes a generator and a discriminator, each consisting of convolutional layers, batch normalization, and activation functions.
 
 ### Test Data
-The model's performance is evaluated using the CAT dataset from Kaggle.
+The model is evaluated using the CAT dataset from Kaggle.
 
 ## Installation
 
-To set up the project environment:
+Set up the project environment as follows:
 
 ```bash
-git clone https://github.com/[your-username]/anime-face-gan.git
+git clone https://github.com/DH-davidhuang/anime-face-gan.git
 cd anime-face-gan
 # Follow the steps for environment setup and dependencies installation
+```
+
+For a comprehensive collection of all trained models, access the following Google Drive link: [Trained Models Collection](https://drive.google.com/drive/folders/1FuDzWTpHcbuszwcbKeYdc0LNQ8_9gw0x?usp=sharing). These models are also preloaded into a Google Colab, detailed under the section 'finetuning GANs'.
